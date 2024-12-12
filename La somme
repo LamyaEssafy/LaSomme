@@ -1,9 +1,16 @@
 /Calculer l'addition de deux nombre
 package Somme
+import java.util.Scanner
 class somme{ 
 public static void main (String [] args){
-int x,y,S; y
+int x,y,S,P; 
+Scanner sc = new Scanner(System.in);
 System.out.println("entrer la valeur de x: "); 
+x=sc.nextInt();
 System.out.println("entrer la valeur de y: ");
-S=x+y; System.out.println("la somme est : "+s); 
+y=sc.nextInt();
+S=x+y;
+System.out.println("la somme est : "+s); 
+P=x*y;
+System.out.println("le produit est: "+P);
 } }
